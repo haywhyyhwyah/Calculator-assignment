@@ -10,7 +10,7 @@ body{
 }
 
 .parent{
-    background-color: orangered;
+    background-color: black;
     height: 50vh;
     width: 40vw;
     margin: auto;
@@ -28,22 +28,22 @@ body{
 input{
     height: 5vh;
     width: 75%;
-    background-color: black;
+    background-color: green;
     border-radius: 7px;
     border: none;
-    color: orangered;
+    color: white;
 }
 
 input::placeholder{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: orangered;
+    color: white;
     font-size: 18px;
 }
 
 .button1{
     background-color: black;
     color: white;
-    border: none;
+    border: 3px solid green;
     border-radius: 7px;
     padding: 7px;
 }
@@ -51,7 +51,7 @@ input::placeholder{
 .button2{
     background-color: black;
     color: white;
-    border: none;
+    border: 3px solid green;
     border-radius: 7px;
     padding: 7px;
 }
@@ -59,7 +59,7 @@ input::placeholder{
 .button3{
     background-color: black;
     color: white;
-    border: none;
+    border: 3px solid green;
     border-radius: 7px;
     padding: 7px;
 }
@@ -67,34 +67,34 @@ input::placeholder{
 .button4{
     background-color: black;
     color: white;
-    border: none;
+    border: 3px solid green;
     border-radius: 7px;
     padding: 7px;
 }
 
 .button1:hover{
-    background-color: orangered;
+    background-color: green;
     border: 3px solid black;
-    color: black;
+    color: white;
 }
 
 
 .button2:hover{
-    background-color: orangered;
+    background-color: green;
     border: 3px solid black;
-    color: black;
+    color: white;
 }
 
 .button3:hover{
-    background-color: orangered;
+    background-color: green;
     border: 3px solid black;
-    color: black;
+    color: white;
 }
 
 .button4:hover{
-    background-color: orangered;
+    background-color: green;
     border: 3px solid black;
-    color: black;
+    color: white;
 }
 
 @media screen and (max-width: 480px) {
